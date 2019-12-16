@@ -41,7 +41,7 @@ Clone the theme repo
 git clone git@github.com:rl-institut/beamer_theme.git
 ```
 
-Checkout the slides' source file of this talk: <https://github.com/gplssm/slides_introducing_latex_beamer_theme/blob/master/20191216_introducing_latex_beamer_plessmann.tex>
+Checkout the slides' source file of this talk: <https://github.com/gplssm/slides_introducing_latex_beamer_theme/blob/master/20191216_introducing_latex_beamer_plessmann.md>
 
 
 
