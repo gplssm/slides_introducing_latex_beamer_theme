@@ -7,6 +7,19 @@ classoption: aspectratio=169
 date: \today
 theme: rli
 urlcolor: rlilinkcolor
+header-includes:
+- |
+  \newcommand{\tel}{+49 (0)30 1208 434 72}
+  \newcommand{\email}{guido.plessmann@rl-institut.de}
+  \newcommand{\twitter}{\href{https://twitter.com/gplssm}{@gplssm}}
+  \newcommand{\finalstatement}{}
+  \tikzset{
+  invisible/.style={opacity=0},
+  visible on/.style={alt={#1{}{invisible}}},
+  alt/.code args={<#1>#2#3}{%
+    \alt<#1>{\pgfkeysalso{#2}}{\pgfkeysalso{#3}} % \pgfkeysalso doesn't change the path
+  },
+  }
 ---
 
 # Hands-on instructions
@@ -195,3 +208,7 @@ Please file issues there.
 - Diverse tasks: readme/user guide, fixes, new features, code quality improvements, example slides 
 - Workflow: <https://github.com/rl-institut/beamer_theme/blob/master/CONTRIBUTING.md>
 - At least: please submit issues ;-)
+
+# {.plain}
+
+\insertendpagecontent
